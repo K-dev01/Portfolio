@@ -143,7 +143,10 @@ html {
     justify-content: center;
 }
 
-.section-title {
+.footer {
+    min-height: auto !important;
+    padding: 3rem 2rem !important;
+}.section-title {
     font-size: 2.5rem;
     margin-bottom: 2rem;
     color: var(--text-primary);
@@ -657,8 +660,12 @@ html {
     color: var(--sidebar-text);
     text-align: center;
     padding: 2rem;
-    margin-left: 0;
     margin-top: 4rem;
+    width: 100%;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    min-height: auto;
 }
 
 /* Responsive Design */
